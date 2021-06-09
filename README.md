@@ -1,5 +1,5 @@
 # README.md
-‘SmartEdu’ is an  online learning  platform based in Kuala Lumpur, Malaysia.
+‘SmartEdu’ is an  e-learning  platform based in Kuala Lumpur, Malaysia.
 
              **Prepared By Group-2**
 
