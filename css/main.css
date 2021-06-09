@@ -1,0 +1,213 @@
+.pr-4{
+    padding-right: 20px;
+}
+.br-2{
+    border-right: 2px solid rgb(224, 219, 219);
+}
+.pl-4{
+    padding-left: 20px;
+}
+.btn{
+    padding:15px 45px;
+    
+    border-radius: 10px; 
+    
+    opacity: 90%
+}
+.btn-primary{
+    background-color: #1ba339;
+    color:rgb(240, 238, 238);
+}
+.btn:hover{
+    opacity: 100%;
+}
+.mr{
+    margin-right: 10px;
+}
+.btn-1:active{
+    background-color: #ffc107;
+    border-color: #ffc107;
+    
+}
+.btn-1:focus{
+    background-color: #ffc107;
+    border-color: #ffc107;
+   
+}
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+ul li::before {
+    content: "\2022"; 
+    color: #ffb606;
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em; 
+}
+.pb-15{
+    padding-bottom: 15px;;
+}
+.feature-icon{
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+}
+.feature-icon1{
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+}
+.pr-20{
+    padding-right: 80px;
+}
+.pr-30{
+    padding-right:30px;
+}
+.flex-start{
+    align-items:flex-start;
+}
+.share-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    opacity: 60%;
+    transition:all 0.5s ease;
+}
+.share-icon:hover{
+    opacity:100%;
+   
+}
+.py-30{
+    padding: 30px 0px;
+}
+.bb-2{
+    border-bottom: 2px solid #ffb606;
+}
+.inline-block{
+    display: inline-block;
+}
+.py-60{
+    padding: 60px 0px;
+}
+.pt-30{
+    padding-top: 30px;
+}
+div.hr-line{
+    height: 1px; 
+    width: 100%; 
+    background-color:#b6b0b0;
+    position: relative;
+}
+div.hr-line::before{
+    content:"";
+    width: 80px;
+    height: 8px;
+    background-color:#ffb606;
+    position: absolute;
+    left: 40%;
+    margin-top: -3px;
+}
+.font-green{
+    color: #00d637;
+}
+.b-1{
+    border: 1px solid #EEEEEE;
+}
+.c-avatar{
+    height: 40px; 
+    width:40px; 
+    border-radius:50%;  
+    border: 2px solid white; 
+    border-radius:50%;
+}
+.p-absolute{
+    position:absolute; 
+    left:40%; 
+    bottom:-20%;
+}
+.course-title{
+    padding-top:70px;  
+    padding-bottom: 40px; 
+    width: max-content"
+}
+div.container-3{
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+form {
+    padding-top:20px;
+    /* margin: 40px 0px; */
+}
+/* Style all input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #0b4bc2;
+  color: white;
+  opacity: 90%;
+  transition: all 0.3s ease;
+}
+input[type=submit]:hover{
+    opacity: 100%;
+}
+
+/* Style the container for inputs */
+.container-3 {
+  background-color: #f1f1f1;
+  padding: 20px 40px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: px;
+  margin-top: 0px;
+}
+
+#message p {
+  padding: 5px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+.bg-white{
+    background-color: white;
+}

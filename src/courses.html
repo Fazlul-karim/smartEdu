@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="../css/headerFooter.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Course Details</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/main.css">
+    </head>
+
+    <body onload="setActive('courses')">
+        <nav class="flex align-center " style="height: 10vh; position:fixed; width:100%">
+            <div class="container flex justify-between align-center">
+                <div class="bold">
+                    <a href="index.html"><img src="../assets/smart_edu_1.svg" alt="" style="height: 40px;"></a>
+                </div>
+                <div id="navLinks" class="flex justify-between nav-links" style="width:50%">
+                    <a id="courses" class="block bold-600 hvr-underline-from-left" href="courses.html"
+                        onClick="setActive('courses')">Courses</a>
+                    <a id="about" class="block bold-600 hvr-underline-from-left" href="AboutUs.html"
+                        onClick="setActive('about')">About Us</a>
+                    <a id="contact" class="block bold-600 hvr-underline-from-left" href="contactUs.html"
+                        onClick="setActive('contact')">Contact
+                        Us</a>
+                    <a id="login" class="block bold-600 hvr-underline-from-left" href="login.html"
+                        onClick="setActive('login')">Login</a>
+                </div>
+            </div>
+        </nav> 
+        <div>
+
+            <div class="flex container justify-between" style="padding:150px 0px">
+                <!-- ================= Single course cad ======================= -->
+                <div class="b-1 bg-white" style="width:30%; border-radius: 10px; overflow: hidden">
+                    <!-- =============== Card wrapper ============= -->
+                    <div style="position:relative;">
+
+                        <img src="../assets/course-1.jpg" alt="" style="height: 200px; width:100%; opacity: 90%;">
+                        <!-- style="position:absolute; left:45%; bottom:-5%; margin-top: 100px;" -->
+                        <div class=" flex column align-center p-absolute">
+                            <img class="c-avatar" src="../assets/teacher.jpg" alt="teacher-avater">
+                            <p class="pt-4 font-gray" style="padding-top: 10px">Jhon Doe</p>
+                        </div>
+                    </div>
+                    <!-- =================== Card Content ================ -->
+                    <div class="pl-4 pr-4">
+
+                        <div class="flex align-center justify-center" style="width:100%; ">
+                            <h3 class="course-title"><a href="courseDetails.html">HTML/CSS Essentials</a> </h3>
+                        </div>
+
+                        <div class="hr-line font-gray"> </div>
+                        <div class="flex align-center justify-between" style="padding: 10px 0px">
+                            <div class="flex align-center">
+                                <img class="" src="../assets/community-man.svg" alt=""
+                                    style="height: 45px; width: 45px;">
+                                <span class="font-gray  pr-4">(50)</span>
+                                <img class="footer-icon" src="../assets/chat.svg" alt=""><span
+                                    class="font-gray">5</span>
+                            </div>
+                            <div class="bold font-green">
+                                Free
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ================= Single course cad ======================= -->
+                <div class="b-1 bg-white" style="width:30%; border-radius: 10px; overflow: hidden">
+                    <!-- =============== Card wrapper ============= -->
+                    <div style="position:relative;">
+
+                        <img src="../assets/pankaj-patel-1IW4HQuauSU-unsplash.jpg" alt=""
+                            style="height: 200px; width:100%; opacity: 90%;">
+                        <!-- style="position:absolute; left:45%; bottom:-5%; margin-top: 100px;" -->
+                        <div class=" flex column align-center p-absolute">
+                            <img class="c-avatar" src="../assets/teacher.jpg" alt="teacher-avater">
+                            <p class="pt-4 font-gray" style="padding-top: 10px">Jhon Doe</p>
+                        </div>
+                    </div>
+                    <!-- =================== Card Content ================ -->
+                    <div class="pl-4 pr-4">
+
+                        <div class="flex align-center justify-center" style="width:100%;">
+                            <h3 class="course-title"><a href="courseDetails_1.html">JavaScript Essentials</a> </h3>
+                        </div>
+
+                        <div class="hr-line font-gray"> </div>
+                        <div class="flex align-center justify-between" style="padding: 10px 0px">
+                            <div class="flex align-center">
+                                <img class="" src="../assets/community-man.svg" alt=""
+                                    style="height: 45px; width: 45px;">
+                                <span class="font-gray  pr-4">(50)</span>
+                                <img class="footer-icon" src="../assets/chat.svg" alt=""><span
+                                    class="font-gray">5</span>
+                            </div>
+                            <div class="bold font-green">
+                                Free
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ================= Single course cad ======================= -->
+                <div class="b-1 bg-white" style="width:30%; border-radius: 10px; overflow: hidden">
+                    <!-- =============== Card wrapper ============= -->
+                    <div style="position:relative;">
+
+                        <img src="../assets/alfons-morales-YLSwjSy7stw-unsplash.jpg" alt=""
+                            style="height: 200px; width:100%; opacity: 80%;">
+                        <!-- style="position:absolute; left:45%; bottom:-5%; margin-top: 100px;" -->
+                        <div class=" flex column align-center p-absolute">
+                            <img class="c-avatar" src="../assets/teacher.jpg" alt="teacher-avater">
+                            <p class="pt-4 font-gray" style="padding-top: 10px">Jhon Doe</p>
+                        </div>
+                    </div>
+                    <!-- =================== Card Content ================ -->
+                    <div class="pl-4 pr-4">
+
+                        <div class="flex align-center justify-center" style="width:100%">
+                            <h3 class="course-title "><a href="courseDetails_2.html">Elements Of Programming</a> </h3>
+                        </div>
+
+                        <div class="hr-line font-gray"> </div>
+                        <div class="flex align-center justify-between" style="padding: 10px 0px">
+                            <div class="flex align-center">
+                                <img class="" src="../assets/community-man.svg" alt=""
+                                    style="height: 45px; width: 45px;">
+                                <span class="font-gray  pr-4">(50)</span>
+                                <img class="footer-icon" src="../assets/chat.svg" alt=""><span
+                                    class="font-gray">5</span>
+                            </div>
+                            <div class="bold font-green">
+                                Free
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer style=" padding-top: 50px; padding: bottom 50px;">
+            <div>
+
+
+                <div class="flex container justify-between">
+                    <div class="flex column">
+                        <!-- <div class="b-2" style="visibility:hidden;">Links</div> -->
+                        <div class="pt-4 flex align-center white">
+                            <img class="footer-icon" src="../assets/gps.svg" alt="gps-icon">
+                            <div> Kuala Lumpur, Malaysia.</div>
+                        </div>
+                        <div class="pt-4 flex align-center">
+                            <img class="footer-icon" src="../assets/mailbox.svg" alt="phone-icon">
+                            <div>info@smartedu.com</div>
+                        </div>
+                        <div class="pt-4 flex align-center">
+                            <img class="footer-icon" src="../assets/calling.svg" alt="mailbox-ico">
+                            <div>+(60) 111 3455</div>
+                        </div>
+                    </div>
+                    <div class="flex column ">
+                        <div class="b-2">Links</div>
+                        <a class="white pt-4" href="#">About Us</a>
+                        <a class="white pt-4" href="#">Contact Us</a>
+                        <a class="white pt-4" href="#">Courses</a>
+                    </div>
+                    <div class="flex column">
+                        <div class="b-2">Courses</div>
+                        <a class="white  pt-4" href="#">ICT</a>
+                        <a class="white  pt-4" href="#">Math</a>
+                        <a class="white  pt-4" href="#">Physics</a><a href=""></a>
+                    </div>
+
+                </div>
+                <hr style="margin-top: 40px; ">
+                <div class="container pt-4 pb-4">
+                    <img src="../assets/smart_edu_3.svg" alt="" style="height: 30px; width:150px"><span>&copy;</span>2021
+                </div>
+            </div>
+
+        </footer>
+        <script src="../js/main.js"></script>
+    </body>
+
+    </html>
+
+
+
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

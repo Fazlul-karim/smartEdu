@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Smart Education</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+  <link rel="stylesheet" href="../css/headerFooter.css">
+  <link rel="stylesheet" type="text/css" href="../css/contactUs.css">
+</head>
+
+<body onload="setActive('contact')">
+
+  <nav class="flex align-center " style="height: 10vh; position:fixed; width:100% ; ">
+    <div class="container flex justify-between align-center">
+      <div class="bold">
+        <a href="index.html"><img src="../assets/smart_edu_1.svg" alt="" style="height: 40px;"></a>
+      </div>
+      <div id="navLinks" class="flex justify-between nav-links" style="width:50%">
+        <a id="courses" class="block bold-600 hvr-underline-from-left" href="courses.html"
+          onClick="setActive('courses')">Courses</a>
+        <a id="about" class="block bold-600 hvr-underline-from-left" href="AboutUs.html"
+          onClick="setActive('about')">About Us</a>
+        <a id="contact" class="block bold-600 hvr-underline-from-left" href="contactUs.html"
+          onClick="setActive('contact')">Contact
+          Us</a>
+        <a id="login" class="block bold-600 hvr-underline-from-left" href="login.html"
+          onClick="setActive('login')">Login</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="contact-section flex justify-between " style="padding: 100px">
+    <div class="slogan" style="padding-top: 50px; width: 35%">
+      <h2>We would love to <br> hear from you</h2>
+    </div>
+
+    <div class="contact" style="margin-right: -120px; width: 70%">
+      <form action="">
+        <div class="box-1">
+          <label for="name">First Name</label>
+          <input type="text" id="name" name="first-name">
+
+          <label for="name">Last Name</label>
+          <input type="text" id="name" name="last-name">
+        </div>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <div class="box-2">
+          <label for="message">Message</label>
+          <input type="message" id="message" name="message">
+
+          <input type="submit" class="submit" value="Submit">
+        </div>
+
+      </form>
+
+    </div>
+  </section>
+
+  <!-- <div class="row" style="background:#d0c5f0;">
+    <div class="col-sm-4">
+      <i style="font-size:26px" class="fa" style="padding-top:20px;">&#xf19d;</i> Smart Education
+    </div>
+  </div>
+    <div class="ula">
+      <table>
+        <tr style="padding:5px;">
+          <td style="padding-right:75px;">About</td>
+          <td style="padding-right:75px;">info@mysite.com</td>
+          <td style="padding-right:75px;">@2001 by Smart Education</td>
+        </tr>
+        <tr style="padding:5px;">
+          <td style="padding-right:25px;">Course</td>
+          <td style="padding-right:25px;">123-456-789</td>
+        </tr>
+        <tr style="padding:5px;">
+          <td style="padding-right:25px;">Contact</td>
+        </tr>
+      </table>
+    </div>
+  </div> -->
+
+
+    <footer style=" padding-top: 50px; padding: bottom 50px;">
+      <div>
+        <div class="flex container justify-between">
+          <div class="flex column">
+            <!-- <div class="b-2" style="visibility:hidden;">Links</div> -->
+            <div class="pt-4 flex align-center white">
+              <img class="footer-icon" src="../assets/gps.svg" alt="gps-icon">
+              <div> Kuala Lumpur, Malaysia.</div>
+            </div>
+            <div class="pt-4 flex align-center">
+              <img class="footer-icon" src="../assets/mailbox.svg" alt="phone-icon">
+              <div>info@smartedu.com</div>
+            </div>
+            <div class="pt-4 flex align-center">
+              <img class="footer-icon" src="../assets/calling.svg" alt="mailbox-ico">
+              <div>+(60) 111 3455</div>
+            </div>
+          </div>
+          <div class="flex column ">
+            <div class="b-2">Links</div>
+            <a class="white pt-4" href="#">About Us</a>
+            <a class="white pt-4" href="#">Contact Us</a>
+            <a class="white pt-4" href="#">Courses</a>
+          </div>
+          <div class="flex column">
+            <div class="b-2">Courses</div>
+            <a class="white  pt-4" href="#">ICT</a>
+            <a class="white  pt-4" href="#">Math</a>
+            <a class="white  pt-4" href="#">Physics</a><a href=""></a>
+          </div>
+        </div>
+        <hr style="margin-top: 40px; ">
+        <div class="container pt-4 pb-4">
+          <img src="../assets/smart_edu_3.svg" alt="" style="height: 30px; width:150px"><span>&copy;</span>2021
+        </div>
+      </div>
+    </footer>
+  
+
+
+  <script src="../js/main.js"></script>
+</body>
+
+</html>

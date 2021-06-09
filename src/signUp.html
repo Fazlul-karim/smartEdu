@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/headerFooter.css">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+  <nav class="flex align-center " style="height: 10vh; position:fixed; width:100%">
+    <div class="container flex justify-between align-center">
+        <div class="bold">
+            <a href="index.html"><img src="../assets/smart_edu_1.svg" alt="" style="height: 40px;"></a>
+        </div>
+        <div id="navLinks" class="flex justify-between nav-links" style="width:50%">
+            <a id="courses" class="block bold-600 hvr-underline-from-left" href="courses.html"
+                onClick="setActive('courses')">Courses</a>
+            <a id="about" class="block bold-600 hvr-underline-from-left" href="AboutUs.html"
+                onClick="setActive('about')">About Us</a>
+            <a id="contact" class="block bold-600 hvr-underline-from-left" href="#"
+                onClick="setActive('contact')">Contact
+                Us</a>
+            <a id="login" class="block bold-600 hvr-underline-from-left" href="login.html"
+                onClick="setActive('login')">Login</a>
+        </div>
+    </div>
+</nav>
+  <div class="container flex align-center justify-center" style="height: 150px"> 
+    <div id="error" class="flex align-center bold justify-center" style="padding-top: 150px; display: none;">
+      <img class="footer-icon" src="../assets/exclamation-triangle-line.svg" alt="">
+      <span>Email Already Exists</span> 
+    </div>
+    <div id="success" class="flex align-center justify-center bold" style="margin-top: 80px; display: none;  ">
+      <img class="footer-icon" src="../assets/confirm.svg" alt="">
+      Registration Successful, You Can Log In now
+    </div>
+  </div>
+
+  <div class="container-3">
+
+    <form method="post" onsubmit="handleSubmit(event)" style="padding: 40px 0px">
+      <label for="usrname">Email</label>
+      <input type="email" id="usrname" name="usrname" required>
+
+      <label for="psw">Password</label>
+      <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+        required>
+      <div id="message">
+        <h3>Password must contain the following:</h3>
+        <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+        <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+        <p id="number" class="invalid">A <b>number</b></p>
+        <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+      </div>
+      <input id="submit" type="submit" value="Sign Up" disabled style="margin-top: 20px">
+    </form>
+  </div>
+
+  <footer style=" padding-top: 50px; padding: bottom 50px;">
+    <div>
+
+
+        <div class="flex container justify-between">
+            <div class="flex column">
+                <!-- <div class="b-2" style="visibility:hidden;">Links</div> -->
+                <div class="pt-4 flex align-center white">
+                    <img class="footer-icon" src="../assets/gps.svg" alt="gps-icon">
+                    <div> Kuala Lumpur, Malaysia.</div>
+                </div>
+                <div class="pt-4 flex align-center">
+                    <img class="footer-icon" src="../assets/mailbox.svg" alt="phone-icon">
+                    <div>info@smartedu.com</div>
+                </div>
+                <div class="pt-4 flex align-center">
+                    <img class="footer-icon" src="../assets/calling.svg" alt="mailbox-ico">
+                    <div>+(60) 111 3455</div>
+                </div>
+            </div>
+            <div class="flex column ">
+                <div class="b-2">Links</div>
+                <a class="white pt-4" href="#">About Us</a>
+                <a class="white pt-4" href="#">Contact Us</a>
+                <a class="white pt-4" href="#">Courses</a>
+            </div>
+            <div class="flex column">
+                <div class="b-2">Courses</div>
+                <a class="white  pt-4" href="#">ICT</a>
+                <a class="white  pt-4" href="#">Math</a>
+                <a class="white  pt-4" href="#">Physics</a><a href=""></a>
+            </div>
+
+        </div>
+        <hr style="margin-top: 40px; ">
+        <div class="container pt-4 pb-4">
+          <img src="../assets/smart_edu_3.svg" alt="" style="height: 30px; width:150px"><span>&copy;</span>2021
+        </div>
+    </div>
+
+  </footer>
+
+  <script src="../js/registration.js"></script>
+
+</body>
+
+</html>

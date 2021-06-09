@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="221.85573"
+   height="117.72686"
+   viewBox="0 0 221.85573 117.72686"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="smart_edu_2.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <defs
+     id="defs833">
+    <rect
+       x="40"
+       y="140"
+       width="420"
+       height="200"
+       id="rect1412" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="104.79425"
+     inkscape:cy="64.285282"
+     inkscape:document-units="px"
+     inkscape:current-layer="g1525"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     lock-margins="true"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1403"
+       originx="-124.14695"
+       originy="-390.20447" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata836">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-63.083624,-211.38263)">
+    <text
+       xml:space="preserve"
+       id="text1410"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:64px;line-height:0;font-family:Raleway;-inkscape-font-specification:'Raleway, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1412);"
+       transform="translate(24.251624,67.963023)"><tspan
+         x="40"
+         y="191.24361"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:64px;line-height:1;font-family:Raleway;-inkscape-font-specification:'Raleway, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">SMART
+</tspan></tspan><tspan
+         x="40"
+         y="255.24361"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:64px;line-height:1;font-family:Raleway;-inkscape-font-specification:'Raleway, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">EDU</tspan></tspan></text>
+    <g
+       id="g1525"
+       transform="translate(210.96668,260.61379)">
+      <g
+         id="g1501"
+         transform="matrix(1.0719665,0,0,1.1825557,-0.07844347,-1.8612591)">
+        <g
+           id="g1489">
+          <path
+             d="M 55.01999,25.56437 V 32.02433 C 55.01999,32.25437 54.92996,32.48435 54.78,32.66434 51.45999,36.60434 41.86997,38.00437 33.99997,38.00437 26.11997,38.00437 16.53,36.60435 13.19998,32.66434 13.04996,32.48435 12.97,32.25437 12.97,32.02433 V 25.56437 L 32.48996,29.78434 C 32.94998,29.90434 33.43997,29.95432 33.99997,29.95432 34.54001,29.95432 35.04996,29.90433 35.47,29.79435 Z"
+             id="path1487" />
+        </g>
+        <path
+           d="M 66.91,19.07438 C 66.91,20.19438 66.17001,21.10435 65.07998,21.34434 L 61.67996,22.08433 V 33.12437 C 63.19998,33.70433 64.29001,35.59434 64.29996,37.89433 L 64.05997,37.65434 C 63.49997,37.15434 62.79001,36.87437 62.04996,36.87437 61.91001,36.87437 61.76999,36.88438 61.65,36.90434 L 57.06998,37.50438 C 57.19998,35.38438 58.24997,33.66435 59.67997,33.12438 V 22.51432 L 35.04997,27.84434 C 34.71,27.92436 34.35002,27.95433 33.99998,27.95433 33.63999,27.95433 33.29002,27.92436 32.96,27.84434 L 2.91001,21.34434 C 1.81998,21.10435 1.09,20.19437 1.09,19.07438 1.09,17.96433 1.81998,17.05436 2.91001,16.81437 L 32.96,10.30436 C 33.62998,10.16435 34.36002,10.15434 35.04997,10.30436 L 65.08,16.81437 C 66.17001,17.05436 66.91,17.96433 66.91,19.07438 Z"
+           id="path1491" />
+        <g
+           id="g1499">
+          <path
+             d="M 36.12173,51.81638 36.28,51.83433 V 42.25437 L 33.98996,42.55436 31.70999,42.25437 V 51.83433 L 31.87356,51.81565 29.79092,56.38944 C 29.56192,56.89237 29.78408,57.48514 30.28653,57.71415 30.79656,57.94514 31.38423,57.71611 31.61124,57.21854 L 33.99747,51.97782 36.3837,57.21805 C 36.61319,57.72098 37.20694,57.94266 37.70841,57.71366 38.21085,57.48466 38.43302,56.89188 38.20402,56.38895 Z"
+             id="path1493" />
+          <path
+             d="M 29.70999,41.99436 6.09,38.88438 C 5.79996,38.84434 5.50998,38.93437 5.29001,39.13438 3.54996,40.69438 2.99997,44.94438 3.22,48.45433 3.32999,50.26433 3.76999,53.46434 5.38998,54.58433 5.55996,54.70433 5.75998,54.76432 5.95999,54.76432 5.99997,54.76432 6.04001,54.76432 6.06998,54.75437 L 29.70999,52.06437 Z"
+             id="path1495" />
+          <path
+             d="M 63.48001,40.10435 C 63.23996,39.69438 62.98001,39.38438 62.70999,39.13438 62.48996,38.93437 62.19998,38.84434 61.91,38.88438 L 38.28,41.99437 V 52.06438 L 61.92996,54.75438 C 62.17001,54.78435 62.41,54.72435 62.61001,54.58434 65.48001,52.58433 65.30997,43.31437 63.48001,40.10435 Z"
+             id="path1497" />
+        </g>
+      </g>
+      <text
+         x="0"
+         y="83"
+         fill="#000000"
+         font-size="5px"
+         font-weight="bold"
+         font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
+         id="text1503" />
+      <text
+         x="0"
+         y="88"
+         fill="#000000"
+         font-size="5px"
+         font-weight="bold"
+         font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
+         id="text1505" />
+    </g>
+  </g>
+</svg>

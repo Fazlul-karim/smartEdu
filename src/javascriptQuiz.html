@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript Quiz</title>
+  <link rel="stylesheet" href="../css/Quiz.css">
+  <link rel="stylesheet" href="../css/headerFooter.css">
+
+</head>
+
+<body>
+  <!-- navigation bar start -->
+  <nav class="flex align-center " style="height: 10vh; position:fixed; width:100%">
+    <div class="container flex justify-between align-center">
+        <div class="bold">
+            <a href="index.html"><img src="../assets/smart_edu_1.svg" alt="" style="height: 40px;"></a>
+        </div>
+        <div id="navLinks" class="flex justify-between nav-links" style="width:50%">
+            <a id="courses" class="block bold-600 hvr-underline-from-left" href="courses.html"
+                onClick="setActive('courses')">Courses</a>
+            <a id="about" class="block bold-600 hvr-underline-from-left" href="AboutUs.html"
+                onClick="setActive('about')">About Us</a>
+            <a id="contact" class="block bold-600 hvr-underline-from-left" href="#"
+                onClick="setActive('contact')">Contact
+                Us</a>
+            <a id="login" class="block bold-600 hvr-underline-from-left" href="login.html"
+                onClick="setActive('login')">Login</a>
+        </div>
+    </div>
+  </nav>
+              <!-- navigation bar end -->
+
+
+
+             <!-- here is the all div class in the mainBody class to design layout:
+               i. mainBody
+                      1.divider
+                      2. leftContainer
+                            a. quizHead
+                            b. form for all question and ans and questionClass.
+                      3. rightContainer
+                            a.chartContainer  
+                             
+                            -->
+
+  <div class="mainBody">
+    <div class="divider"></div>
+    <div class="leftContainer">
+      <div class="quizHead">
+        <h2>JavaScript Quiz</h2>
+      </div>
+
+      <form name="quiz" id="quiz">
+        <div class="questionClass">
+          <p> Which of the following is not a reserved word in JavaScript?</p>
+          <p><input type="radio" name="question1" value="answer1">interface</p>
+          <p><input type="radio" name="question1" value="answer2">throws</p>
+          <p><input type="radio" name="question1" value="correct">program</p>
+          <p><input type="radio" name="question1" value="answer4">short</p>
+        </div>
+        <div class="questionClass">
+          <p>Which of the following is the correct syntax to display “GeeksforGeeks” in an alert box using JavaScript?
+          </p>
+          <p><input type="radio" name="question2" value="answer1">alertbox(“GeeksforGeeks”);</p>
+          <p><input type="radio" name="question2" value="answer2">msg(“GeeksforGeeks”);</p>
+          <p><input type="radio" name="question2" value="answer3">msgbox(“GeeksforGeeks”);</p>
+          <p><input type="radio" name="question2" value="correct">alert(“GeeksforGeeks”);</p>
+        </div>
+        <div class="questionClass">
+          <p>10. Predict the output of the following JavaScript code.var x=5;
+            var y=6; var res=x*y; document.write(res);</p>
+          <p><input type="radio" name="question3" value="answer1">11</p>
+          <p><input type="radio" name="question3" value="correct">30</p>
+          <p><input type="radio" name="question3" value="answer3">5*6</p>
+          <p><input type="radio" name="question3" value="answer4">non of them</p>
+        </div>
+        <div class="questionClass">
+          <p>
+            7. Predict the output of the following JavaScript code.var a="GeeksforGeeks";
+            var x=a.lastIndexOf("G"); document.write(x);</p>
+          <p><input type="radio" name="question4" value="correct">8</p>
+          <p><input type="radio" name="question4" value="answer2">0</p>
+          <p><input type="radio" name="question4" value="answer3">9 </p>
+          <p><input type="radio" name="question4" value="answer4">Error</p>
+        </div>
+        <div class="questionClass">
+          <p>The external JavaScript file must contain script tag. True or False?</p>
+          <p><input type="radio" name="question5" value="answer1">True</p>
+          <p><input type="radio" name="question5" value="correct">False</p>
+
+        </div>
+        <div class="btn">
+          <input type="button" name="" value="Submit Your Answer" onclick="check()">
+        </div>
+
+      </form>
+    </div>
+    <div class="rightContainer">
+      <h1 id="result"></h1>
+      <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+    </div>
+
+  </div>
+                    <!-- end of mainBody class -->
+
+
+
+
+                    <!-- Start of footer sectiion -->
+
+  <footer style=" padding-top: 50px; padding: bottom 50px;">
+    <div>
+
+
+      <div class="flex container justify-between">
+        <div class="flex column">
+          <!-- <div class="b-2" style="visibility:hidden;">Links</div> -->
+          <div class="pt-4 flex align-center white">
+            <img class="footer-icon" src="../assets/gps.svg" alt="gps-icon">
+            <div> Kuala Lumpur, Malaysia.</div>
+          </div>
+          <div class="pt-4 flex align-center">
+            <img class="footer-icon" src="../assets/mailbox.svg" alt="phone-icon">
+            <div>info@smartedu.com</div>
+          </div>
+          <div class="pt-4 flex align-center">
+            <img class="footer-icon" src="../assets/calling.svg" alt="mailbox-ico">
+            <div>+(60) 111 3455</div>
+          </div>
+        </div>
+        <div class="flex column ">
+          <div class="b-2">Links</div>
+          <a class="white pt-4" href="#">About Us</a>
+          <a class="white pt-4" href="#">Contact Us</a>
+          <a class="white pt-4" href="#">Courses</a>
+        </div>
+        <div class="flex column">
+          <div class="b-2">Courses</div>
+          <a class="white  pt-4" href="#">ICT</a>
+          <a class="white  pt-4" href="#">Math</a>
+          <a class="white  pt-4" href="#">Physics</a><a href=""></a>
+        </div>
+
+      </div>
+      <hr style="margin-top: 40px; ">
+      <div class="container pt-4 pb-4">
+        <img src="../assets/smart_edu_3.svg" alt="" style="height: 30px; width:150px"><span>&copy;</span>2021
+      </div>
+    </div>
+
+  </footer>
+              <!-- Start of footer sectiion -->
+
+
+  <script src="../js/main.js"></script>
+              <!-- jquery link for pie chart -->
+  <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+  <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+  <script src="../js/Quiz.js"></script>
+
+</body>
+
+</html>

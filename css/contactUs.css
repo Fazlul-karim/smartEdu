@@ -1,0 +1,91 @@
+body {
+  background-color: #d0c5f0;
+  margin: 0;
+}
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* float: right; */
+  margin-right:  100px;
+  margin-top: 100px;
+
+}
+
+h2 {
+  font-size: 3em;
+}
+.slogan{
+  /* float: left;
+  clear: left; */
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+label {
+  display: inline;
+  font-size: 1.2em;
+  margin-bottom: .5em;
+}
+
+input, textarea {
+  width: 100%;
+  padding: .8em;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-radius: unset;
+  border-color: black;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  background-color: transparent;
+}
+
+.send-message-cta {
+  font-weight: bold;
+  font-size: 1em;
+  display: inline-block;
+  padding: .8em 2em;
+  width: unset;
+}
+
+.submit {
+  background-color: transparent;
+  color: black;
+  padding: 12px 20px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  /* a{
+    text-decoration: none; font-size: 20px;font-family: sans-serif;padding: 14px 30px} */
+    /* ul
+    {
+      padding: 14px
+    }
+    li
+    {
+      list-style: none; display: inline;
+    }
+    li a{
+      background: #222; color:#d4d4d4;
+    }
+    li a:hover{
+      background: #4da4ff; color:#fff;
+    }
+    .navi{
+      background: #222; height: 50px
+    }
+.row{
+  float: left;
+  clear: left;
+  margin-top: 300px;
+  margin-left: 40px;
+}
+.ula{
+  float: right;
+  clear: right;
+  margin-top: 90px;
+  margin-right: 85px;
+} */

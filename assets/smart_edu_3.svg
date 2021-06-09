@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="406.62299"
+   height="90.960793"
+   viewBox="0 0 406.62299 90.960793"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="smart_edu_3.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <defs
+     id="defs833">
+    <rect
+       x="40"
+       y="140"
+       width="420"
+       height="200"
+       id="rect1412" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="190.38381"
+     inkscape:cy="63.326591"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     lock-margins="true"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1403"
+       originx="-61.06332"
+       originy="-178.82184" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata836">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-61.063319,-178.82184)">
+    <text
+       xml:space="preserve"
+       id="text1410"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:64px;line-height:1.25;font-family:Raleway;-inkscape-font-specification:'Raleway, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect1412);fill:#ff6600;fill-opacity:0.88419962;"
+       transform="translate(22.231319,67.963023)"><tspan
+         x="40"
+         y="199.24361"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:64px;font-family:Raleway;-inkscape-font-specification:'Raleway, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600;fill-opacity:0.8842">SMART    EDU</tspan></tspan></text>
+    <g
+       id="g1442"
+       transform="translate(391.96643,31.299733)">
+      <g
+         stroke="none"
+         stroke-width="1"
+         fill="none"
+         fill-rule="evenodd"
+         id="g1424"
+         transform="translate(-146.31378,136.52211)">
+        <path
+           d="M 94.220489,39.466336 95,34.979312 C 94.274423,34.793537 22.149254,16.34598 6.3320895,13 L 5,17.353022 25.661126,25.656047 C 22.349729,26.676287 19.148236,28.094471 16.132971,29.930902 12.473541,32.161217 9.4481004,34.970175 6.8877205,38.162866 5.8751696,39.426744 6.7350746,41.286525 8.355156,41.363677 31.1981,42.458024 40.81479,53.503006 44.668589,60.641638 45.948779,63.014076 49.013908,63.757176 51.199796,62.172505 55.069878,59.367607 62.018318,56.876395 73.523745,60.231512 74.93114,60.640623 76.339552,59.536124 76.286635,58.073273 75.998643,49.940796 74.406038,43.031591 69.347354,37.178157 L 81.410448,38.287731 V 75.191981 C 78.953867,76.205114 77.23711,78.637447 77.285957,81.464678 77.350068,84.988312 80.326662,87.947514 83.85787,87.999288 87.588535,88.053091 90.631275,85.052267 90.631275,81.343874 90.631275,78.37452 88.681479,75.861989 85.989824,75.004176 V 38.709024 Z"
+           fill="#000000"
+           id="path1422"
+           style="fill:#ff6600" />
+      </g>
+      <text
+         x="0"
+         y="115"
+         fill="#000000"
+         font-size="5px"
+         font-weight="bold"
+         font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
+         id="text1426" />
+      <text
+         x="0"
+         y="120"
+         fill="#000000"
+         font-size="5px"
+         font-weight="bold"
+         font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
+         id="text1428" />
+    </g>
+  </g>
+</svg>

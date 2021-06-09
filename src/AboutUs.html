@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/headerFooter.css">
+  <link rel="stylesheet" href="../css/AboutUs.css">
+</head>
+
+<body onload="setActive('about')">
+  <!-- start of the navigation bar -->
+  <nav class="flex align-center " style="height: 10vh; position:fixed; width:100%">
+    <div class="container flex justify-between align-center">
+        <div class="bold">
+            <a href="index.html"><img src="../assets/smart_edu_1.svg" alt="" style="height: 40px;"></a>
+        </div>
+        <div id="navLinks" class="flex justify-between nav-links" style="width:50%">
+            <a id="courses" class="block bold-600 hvr-underline-from-left" href="courses.html"
+                onClick="setActive('courses')">Courses</a>
+            <a id="about" class="block bold-600 hvr-underline-from-left" href="AboutUs.html"
+                onClick="setActive('about')">About Us</a>
+            <a id="contact" class="block bold-600 hvr-underline-from-left" href="contactUs.html"
+                onClick="setActive('contact')">Contact
+                Us</a>
+            <a id="login" class="block bold-600 hvr-underline-from-left" href="login.html"
+                onClick="setActive('login')">Login</a>
+        </div>
+    </div>
+  </nav>
+  <!-- end of the navigation bar -->
+
+
+
+  <!-- here is the all div class in the mainBody class to design layout:
+               i. mainBody
+                      1.divider
+                      2. description
+                      3. team
+                            a.member
+                            b.content
+                                * contentLeft
+                                      -ul
+                                * contentRight 
+                                      -ul 
+
+              -->
+
+  <div class="mainBody" style="padding: 100px 0px;">
+    <div class="divider"></div>
+    <div class="description">
+      
+      <p> We are nonprofit with the mission to provide a free, world class education for anyone,
+        anywhere. We are focusing in SDG’s as well. Our primary aim is to provide Quality Education.
+        Our group has worked really hard to make this happen. We're one step closer to accomplishing our dream.
+        We are extending our work and want to servethe community in the best way possible in the near future.
+        Keep an eye out for further information. </p>
+        
+
+    </div>
+
+    <div class="team">
+      <div class="teamHead">
+        <h4>Meet The Team</h4>
+        <p>-----</p>
+      </div>
+      <a href="aboutUs_Details_1.html" style="color:black; opacity:1">
+        <div class="member">
+          <img src="../assets/Shibbir.jpg" alt="">
+          <h3>AHMAD SHIBBIR <br>1824143 </h3>
+          EMAIL ME:- <a href="mailto:Ahmad.s@live.iium.edu.my">Ahmad.s@live.iium.edu.my</a>.<br>
+        </div>
+      </a>
+      <a href="aboutUs_Details_2.html" style="color:black; opacity:1">
+        <div class="member">
+          <img src="../assets/fahim.jpg" alt="">
+          <h3>KARIM FAZLUL<br>1822049 </h3>
+          EMAIL ME:- <a href="mailto:k.fazlul@live.iium.edu.my">k.fazlul@live.iium.edu.my</a>.<br>
+        </div>
+      </a>
+      <a href="aboutUs_Details.html" style="color:black; opacity:1">
+        <div class="member">
+          <img src="../assets/Ghadir Ali.jpg" alt="">
+          <h3>GHADIR ALI<br>1827374 </h3>
+          EMAIL ME:- <a href="mailto:Razakabdu80@gmail.com">Razakabdu80@gmail.com</a>.<br>
+        </div>
+      </a>
+      <a href="aboutUs_Details_3.html" style="color:black; opacity:1">
+        <div class="member">
+          <img src="../assets/Abdu.jpg" alt="">
+          <h3>ALAMUDI <br>1822049 </h3>
+          EMAIL ME:- <a href="mailto:Ahmad.s@live.iium.edu.my">Ahmad.s@live.iium.edu.my</a>.<br>
+        </div>
+      </a>
+
+    </div>
+
+
+  </div>
+
+  <footer style=" padding-top: 50px; padding: bottom 50px;">
+    <div>
+
+
+        <div class="flex container justify-between">
+            <div class="flex column">
+                <!-- <div class="b-2" style="visibility:hidden;">Links</div> -->
+                <div class="pt-4 flex align-center white">
+                    <img class="footer-icon" src="../assets/gps.svg" alt="gps-icon">
+                    <div> Kuala Lumpur, Malaysia.</div>
+                </div>
+                <div class="pt-4 flex align-center">
+                    <img class="footer-icon" src="../assets/mailbox.svg" alt="phone-icon">
+                    <div>info@smartedu.com</div>
+                </div>
+                <div class="pt-4 flex align-center">
+                    <img class="footer-icon" src="../assets/calling.svg" alt="mailbox-ico">
+                    <div>+(60) 111 3455</div>
+                </div>
+            </div>
+            <div class="flex column ">
+                <div class="b-2">Links</div>
+                <a class="white pt-4" href="#">About Us</a>
+                <a class="white pt-4" href="#">Contact Us</a>
+                <a class="white pt-4" href="#">Courses</a>
+            </div>
+            <div class="flex column">
+                <div class="b-2">Courses</div>
+                <a class="white  pt-4" href="#">ICT</a>
+                <a class="white  pt-4" href="#">Math</a>
+                <a class="white  pt-4" href="#">Physics</a><a href=""></a>
+            </div>
+
+        </div>
+        <hr style="margin-top: 40px; ">
+        <div class="container pt-4 pb-4">
+          <img src="../assets/smart_edu_3.svg" alt="" style="height: 30px; width:150px"><span>&copy;</span>2021
+        </div>
+    </div>
+
+</footer>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>

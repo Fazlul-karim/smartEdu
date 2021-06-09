@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/Home.css">
+    <link rel="stylesheet" href="../css/headerFooter.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- jquery script link (fotorama) for slidshow  -->
+    <!-- jQuery 1.8 or later, 33 KB -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Fotorama from CDNJS, 19 KB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+</head>
+
+<body>
+    <!-- navigation bar start -->
+    <nav class="flex align-center " style="height: 10vh; position:fixed; width:100%">
+        <div class="container flex justify-between align-center">
+            <div class="bold">
+                <a href="index.html"><img src="../assets/smart_edu_1.svg" alt="" style="height: 40px;"></a>
+            </div>
+            <div id="navLinks" class="flex justify-between nav-links" style="width:50%">
+                <a id="courses" class="block bold-600 hvr-underline-from-left" href="courses.html"
+                    onClick="setActive('courses')">Courses</a>
+                <a id="about" class="block bold-600 hvr-underline-from-left" href="AboutUs.html"
+                    onClick="setActive('about')">About Us</a>
+                <a id="contact" class="block bold-600 hvr-underline-from-left" href="contactUs.html"
+                    onClick="setActive('contact')">Contact
+                    Us</a>
+                <a id="login" class="block bold-600 hvr-underline-from-left" href="login.html"
+                    onClick="setActive('login')">Login</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Slideshow container -->
+    <div class="bg-antiquewhite">
+        <div class="flex  " style="overflow: hidden;">
+            <div class="flex column justify-center "
+                style="width:30%; height: 100%; padding-top: 180px; padding-left: 130px;">
+                <h1>Free <br>Leasions Online</h1>
+                <!-- <p style="margin-top: 20px;">Don't missout while you are aw<img src="../assets/smart_edu_1.svg" alt="" style="height: 40px;">y from school.</p> -->
+                <a href="courses.html" style="color:rgb(37, 36, 36); ">
+                    <h3
+                        style="padding: 15px 20px; background-color:aquamarine; border-radius: 10px; width:max-content; margin-top: 30px;">
+                        Start Now!</h3>
+                </a>
+            </div>
+            <div class="slideshow-container " style="overflow: hidden; height: 520px">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+
+                    <img src="../assets/html.jpg" style="width:100%">
+
+                </div>
+                <div class="mySlides fade">
+
+                    <img src="../assets/c.jpg" style="width:100%">
+
+                </div>
+                <div class="mySlides fade">
+
+                    <img src="../assets/english.jpg" style="width:100%">
+
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <!-- The dots/circles -->
+            <!-- <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div> -->
+        </div>
+    </div>
+
+
+    <div class="mainBody">
+
+
+        <div class="courseAndDescription">
+            <div class="description">
+                <h2 class="border-bottom">What wee will Teach?</h2>
+                <p style="padding:15px 0px"> this is the online free course.You don't need to wory about the money. just
+                    register and learn lot
+                    course
+                    like math, english, HTML&CSS, and many more course. we will als include lot course in futere. stay
+                    tuned </p>
+                <video width="400" controls>
+                    <source src="../assets/Video.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="content">
+                <!-- this contentLeft class contain course name and pictures -->
+                <div class="contentLeft">
+                    <ul class="flex column justify-center align-center">
+
+                        <a href="courseDetails_1.html">
+                            <h3 style="padding-bottom: 20px;">JS progrmming</h3>
+                        </a>
+                        <img src="../assets/c.jpg" alt="">
+                        <p style="padding-top: 10px;"> this course will teach you <br>all about JS progrmming.</p>
+                    </ul>
+                    <ul class="flex column justify-center align-center">
+                        <a href="courseDetails.html">
+                            <h3 style="padding-bottom: 20px;">HTML</h3>
+                        </a>
+
+                        <img src="../assets/html.jpg" alt="">
+                        <p style="padding-top: 10px;"> this course will teach you <br>all about HTML.</p>
+                    </ul>
+                </div>
+                <div class="contentRight">
+                    <ul class="flex column justify-center align-center">
+                        <a href="upcomingcourse.html">
+                            <h3 style="padding-bottom: 20px;">Math</h3>
+                        </a>
+
+                        <img src="../assets/math.jpg" alt="">
+                        <p style="padding-top: 10px;"> this course will teach you <br>all about Math.</p>
+                    </ul>
+                    <ul class="flex column justify-center align-center">
+                        <a href="upcomingcourse.html">
+                            <h3 style="padding-bottom: 20px;">ENGLISH</h3>
+                        </a>
+
+                        <img src="../assets/english.jpg" alt="">
+                        <p style="padding-top: 10px;"> this course will teach you <br>all about English.</p>
+                    </ul>
+
+                </div>
+                <!-- end of the contentLeft class -->
+
+            </div>
+        </div>
+
+        <!-- end of the mainBody class -->
+
+
+        <div class="fotterDivider"></div>
+    </div>
+
+    <!-- start of  the footer section -->
+    <footer style=" padding-top: 50px; padding: bottom 50px;">
+        <div>
+
+
+            <div class="flex container justify-between">
+                <div class="flex column">
+                    <!-- <div class="b-2" style="visibility:hidden;">Links</div> -->
+                    <div class="pt-4 flex align-center white">
+                        <img class="footer-icon" src="../assets/gps.svg" alt="gps-icon">
+                        <div> Kuala Lumpur, Malaysia.</div>
+                    </div>
+                    <div class="pt-4 flex align-center">
+                        <img class="footer-icon" src="../assets/mailbox.svg" alt="phone-icon">
+                        <div>info@smartedu.com</div>
+                    </div>
+                    <div class="pt-4 flex align-center">
+                        <img class="footer-icon" src="../assets/calling.svg" alt="mailbox-ico">
+                        <div>+(60) 111 3455</div>
+                    </div>
+                </div>
+                <div class="flex column ">
+                    <div class="b-2">Links</div>
+                    <a class="white pt-4" href="#">About Us</a>
+                    <a class="white pt-4" href="#">Contact Us</a>
+                    <a class="white pt-4" href="#">Courses</a>
+                </div>
+                <div class="flex column">
+                    <div class="b-2">Courses</div>
+                    <a class="white  pt-4" href="#">ICT</a>
+                    <a class="white  pt-4" href="#">Math</a>
+                    <a class="white  pt-4" href="#">Physics</a><a href=""></a>
+                </div>
+
+            </div>
+            <hr style="margin-top: 40px; ">
+            <div class="container pt-4 pb-4">
+                <img src="../assets/smart_edu_3.svg" alt="" style="height: 30px; width:150px"><span>&copy;</span>2021
+            </div>
+        </div>
+    </footer>
+    <!-- end of  the footer section -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

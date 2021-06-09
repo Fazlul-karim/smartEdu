@@ -1,0 +1,243 @@
+
+html {
+  scroll-behavior: smooth;
+}
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif, Arial, Helvetica;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.mainBody {
+  
+  background-color: white;  
+  height: 800px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 7% 0 5%;
+}
+.upperContainer{
+  height: 630px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 7% 0 5%;
+}
+.bg-antiquewhite{
+  background-color: antiquewhite;
+}
+
+.freeLeasonContainer{
+  
+  background-color: antiquewhite;
+  
+  
+}
+.freeLeasonContainer h1{
+  margin-top: 20px;
+  padding: 2% 4% 2% 0;
+  
+}
+.freeLeasonContainer p{
+  margin-top: 20%;
+  margin-bottom: 80%;
+  
+}
+.freeLeasonContainer h3{
+  margin-top: 20px;
+  background-color: aquamarine;
+  border-radius: 50%;
+  padding: 2% 4% 2% 16%;
+  
+}
+.border-bottom{
+  border-bottom: 4px solid rgb(218, 162, 60); width:max-content
+}
+.slideShow{
+  float: left;
+  width: 70%;
+  height: 100%;
+  margin-right: 7%;
+  border: antiquewhite solid 10px;
+  border-style: outset ; 
+  background-color: antiquewhite;
+ 
+ 
+}
+
+
+.divider{
+
+  height: 60px;
+  border-bottom-style:inset;
+  
+}
+
+.description {
+  margin-top: 30px;
+  margin-left: -25px;
+  float: left;
+  width: 35%;
+  height: 500px;
+  background-color: white;
+  text-align:left;
+  padding-top: 30px;
+  /* padding: 20px 10px 0 40px; */
+
+
+}
+video{
+  width: 100%;
+  height: auto;
+  margin-top: 14%;
+}
+.description h2{
+  margin-top: 20px;
+}
+.description p{
+  margin-top: 20px;
+  line-height: 2;
+  font-size: 20px;
+}
+.courseAndDescription{
+  width: 100;
+  padding-left: 80px;
+ 
+}
+.content {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  height: 500px;
+  margin: 60px 0 20px 30px;
+ background-color: white;
+}
+
+.contentLeft {
+  float: left;
+  width: 50%;
+  height: 500px;
+  background-color: white;
+}
+
+.contentRight {
+  float: right;
+  width: 50%;
+  height: 500px;
+  background-color: white;
+}
+ul{
+  border: crimson 3px;
+  margin-top: 20px;
+  align-items: center;  
+  padding: 2%;
+  height: 60%;
+  margin: 3%;
+  border: 1%;
+  text-align: center;  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-style: inset; 
+}
+ul:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+ul img {
+  height: 130px;
+  width: 180px
+}
+img{
+  width: 90%;
+  height: 620px;
+}
+
