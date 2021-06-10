@@ -17,7 +17,7 @@ Even though steady increases in literacy rates over the last 50 years, there are
  
 To ensure inclusive and equitable quality education, wee the team “Smart Education'' developed a website for those kinds of people who have dropped out from school, have financial crises or have a small range of capacity to attain quality education. On our website those students need to register first to enroll in the classes but it's completely free. They can choose various types of subjects i.e. Math, English, ICT (C++, HTML, CSS) based on their needs. All kinds of tutorials, blogs, and articles will be updated there. Students can learn their lesson from this and after the lesson ends, they can test themselves by attempting a quiz. 
 ## Project Sitemap
-![Site Map](https://github.com/Fazlul-karim/smartEdu/tree/main/assets/siteMap.jpeg)
+![Site Map](https://github.com/Fazlul-karim/smartEdu/blob/main/assets/siteMap.jpeg)
 
 ## Group Contributions
 
