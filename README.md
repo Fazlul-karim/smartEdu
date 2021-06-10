@@ -19,7 +19,7 @@ To ensure inclusive and equitable quality education, wee the team “Smart Educa
 
 ## Project Sitemap
 
-        ![Site Map](https://github.com/Fazlul-karim/smartEdu/assets/siteMap.jpeg)
+        ![Site Map](https://github.com/Fazlul-karim/smartEdu/blob/main/assets/siteMap.jpeg)
 
 
         
@@ -54,5 +54,8 @@ Abdurrazaq usman alamudi 1822319
 ## Use of third-party resources
 - Font Awesome icons
 - Google Font
+
+## References
+- https://www.w3schools.com
 
 ------------------------------------END OF README SAMPLE ----------------------------------------
