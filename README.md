@@ -1,7 +1,7 @@
 # README.md
 ‘SmartEdu’ is an  e-learning  platform based in Kuala Lumpur, Malaysia.
 
- **Prepared By Group-2**
+ **Prepared By Smart Education Team(Group-2)*
 
 |        Name                |    Matric No
 |----------------------------|-------------------|
