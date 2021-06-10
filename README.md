@@ -19,7 +19,7 @@ To ensure inclusive and equitable quality education, wee the team “Smart Educa
 
 ## Project Sitemap
 
-        ![Site Map](https://raw.github.com/Fazlul-karim/smartEdu/main/assets/siteMap.jpeg)
+        ![Site Map](https://github.com/Fazlul-karim/smartEdu/tree/main/assets/siteMap.jpeg)
 
 
         
